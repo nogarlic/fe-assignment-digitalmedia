@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>Blog Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&family=Montserrat:wght@300&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="css/styles.css"> 
+    <link rel="stylesheet" href="css/blog.css"> 
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-padding w-100 text-dark-blue navbar-head">
+            <div class="container-fluid d-flex justify-content-between">
+                <div class="d-flex justify-content-center">
+                    <a class="navbar-brand" href="index.html">
+                        <!-- <img src="/image/Logo.png"> -->
+                        <h1 class="text-dark-blue font-size-52">team<span class="text-soft-blue">.</span></h1>
+                    </a>
+                </div>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: white;">
+                    <span class="" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:#232340"></i></span>
+                </button>                
+                <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
+                    <ul class="navbar-nav d-flex justify-content-center">
+                        <li class="nav-item nav-item-margin">
+                            <!-- <a class="nav-link active" aria-current="page" href="#">Product</a> -->
+                            <a class="nav-link text-dark-blue" href="#">Product</a>
+                        </li>
+                        <li class="nav-item nav-item-margin">
+                            <a class="nav-link text-dark-blue" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item nav-item-margin">
+                            <a class="nav-link text-dark-blue" href="#">Support</a>
+                        </li>
+                        <li class="nav-item nav-item-margin">
+                            <a class="nav-link text-dark-blue" href="#">Login</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <button class="btn btn-nav font-bigger">
+                                <a class="nav-link text-dark-blue" href="#">Get Access</a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row d-flex justify-content-center align-items-center mx-140 mt-5">
+            <div class="mx-140 col-lg-8 mt-5">
+                <h1 class="col-lg-12 mt-5">Data exported by Team Cloud organization administrators contained private files</h1>
+                <div class="mt-5 d-flex justify-content-start align-items-center">
+                    <div class="col-md-2 col-6 w-48">
+                        <img src="image/blog/346d6b5d9c9abcbb88e7ddcd9ef36406.png" alt="user blog 1" class="rounded-circle w-100">
+                    </div>
+                    <p class="m-2 mt-2 small text-desaturated-blue">Mark Brooklyn</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2" height="24" viewBox="0 0 2 24" fill="none" class="mt-1">
+                        <path d="M1 0V24" stroke="#7676B2" stroke-width="1.1"/>
+                    </svg>
+                    <p class="m-2 mt-2 small text-desaturated-blue">June 14, 2023</p>
+                </div>
+            </div>
+            <div class="col-lg-10 col-12 article-image-post mt-5">
+                <img src="image/blog/878b925214c40f042a6331e7767a6d2a.jpg" alt="article 1" class="w-100 object-fit-cover">
+            </div>
+            <div class="mx-140 col-lg-8 mt-5 post-body">
+                <p>Administrators of Team Cloud organizations can export public data from their organization via the organization settings menu. The exports include all the data that appears in public streams, and can be used to migrate from Team Cloud to self-hosting Team. Note that exporting private data is a separate process that requires contacting Team Support.</p>
+                <p>Due to a bug in the public export code, exports of public data contained all uploaded files, even those from private messages and private streams. This may have allowed organization owners or administrators to extract uploaded files that they were not otherwise allowed to access. The content of non-public messages was never included in public exports.</p>
+                <p>This bug has existed since the public export feature was implemented in August 2019. We have deleted all existing Team Cloud exports from our servers, and will be making changes to auto-expire all exports after 7 days in the future. This bug was fixed for self-hosted users in the Team Server 5.4 release.</p>
+                <p>We have notified by email all administrators and users in non-deactivated Team Cloud organizations who may have been impacted by this bug. As many organizations have never exported their data, most Team Cloud users were not affected.</p>
+                <p>We would like to thank Antoine Benoist for bringing this issue to our attention.</p>
+            </div>
+            <div class="mx-140 mt-5 col-lg-8 d-flex justify-content-start align-items-center">
+                <div class="col-md-2 col-6 w-64">
+                    <img src="image/blog/346d6b5d9c9abcbb88e7ddcd9ef36406.png" alt="user blog 1" class="rounded-circle w-100">
+                </div>
+                <div class="col-lg-6 mx-3">
+                    <h5 class="text-soft-violet">WRITTEN BY</h5>
+                    <h5 class="fw-light">Mark Brooklyn</h5>
+                    <p class="author-bio fw-light">COO at Team. Author of the upcoming book on Team Management and Leadership.</p>
+                </div>
+            </div>
+            <div class="mt-5 col-lg-8">
+                <hr class="mt-5">
+            </div>
+            <div class="mx-140 mt-5 col-lg-8">
+                <div class="mt-5 col-lg-8 mb-3">
+                    <p class="mt-5">Join the conversation</p>
+                </div>
+                <div class="col-lg-11 d-flex justify-content-start align-items-start">
+                    <div class="col-md-2 col-2 w-48">
+                        <img src="image/blog/1150556af81cf5d772ee6315fd15221d.png" alt="user comment 1" class="rounded-circle w-100">
+                    </div>
+                    <div class="mx-3 col-lg-12 col-md-10 col-9">
+                        <textarea class="form-control w-100 bg-transparent border-1 border-black" placeholder="Comments" style="height: 200px;"></textarea>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    
+
+    <footer class="container-fluid">
+        <div class="row d-block d-lg-flex">
+            <div class="col-md-3 d-flex justify-content-start justify-content-md-around">
+                <div class="col-4 col-md-12 col-lg-6">
+                    <img src="/image/Logo.png" alt="logo">
+                    <p class="fw-lighter fosi-14 matop-24">Collaboration platform for mordern team </p>
+                </div>
+            </div>
+            <div class="col-md-8 d-lg-flex footer-sec-2">
+                <div class="col-12 col-lg-8 d-block d-sm-flex d-md-flex justify-content-between justify-content-md-center">
+                    <div class="col-lg-3 col-md-4 matop-24">
+                        <h3 class="text-blue">Company</h3>
+                        <ul class="list-unstyled">
+                            <li class="fosi-14 matop-24 cursor-pointer">Product</li>
+                            <li class="fosi-14 matop-24 cursor-pointer">Blog</li>
+                            <li class="fosi-14 matop-24 cursor-pointer">SUpport</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 matop-24">
+                        <h3 class="text-blue">Features</h3>
+                        <ul class="list-unstyled">
+                            <li class="fosi-14 matop-24 cursor-pointer">Screen Sharing</li>
+                            <li class="fosi-14 matop-24 cursor-pointer">iOS & Android Apps</li>
+                            <li class="fosi-14 matop-24 cursor-pointer">File Sharing</li>
+                            <li class="fosi-14 matop-24 cursor-pointer">User Managment</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 matop-24">
+                        <h3 class="text-blue">Contact Us</h3>
+                        <ul class="list-unstyled">
+                            <li class="fosi-14 matop-24 cursor-pointer">info@teamapp.com</li>
+                            <li class="fosi-14 matop-24">1-800-200-300</li>
+                            <li class="fosi-14 matop-24">1010 Sunset Blv. <br>Palo Alto, California</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 matop-24">
+                    <h3 class="text-blue">Stay up to date</h3>
+                    <p class="fosi-14 matop-24">Subscribe to our newseller</p>
+                    <div class="email-input bg-gr">
+                        <input type="email" placeholder="Email" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none" class="arrow-icon">
+                            <path d="M5.20874 13.5H16.3787L11.4987 18.38C11.1087 18.77 11.1087 19.41 11.4987 19.8C11.8887 20.19 12.5187 20.19 12.9087 19.8L19.4987 13.21C19.8887 12.82 19.8887 12.19 19.4987 11.8L12.9187 5.19996C12.7319 5.0127 12.4783 4.90747 12.2137 4.90747C11.9492 4.90747 11.6956 5.0127 11.5087 5.19996C11.1187 5.58996 11.1187 6.21996 11.5087 6.60996L16.3787 11.5H5.20874C4.65874 11.5 4.20874 11.95 4.20874 12.5C4.20874 13.05 4.65874 13.5 5.20874 13.5Z" fill="#F5F5F5"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="fosi-14 fw-lighter copyright col-md-2 d-flex justify-content-md-end">© Copyright Team Inc.</p>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- jQuery -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script> <!-- Bootstrap JS -->
+<script src="js/index.js"></script>
+<script src="js/blog.js"></script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+.text-dark-blue {
+    color: var(--Dark-Blue, #232340);
+}
+
+.text-desaturated-blue {
+    color: #7676B2
+}
+
+.mx-140 {
+    margin-left: 140px;
+    margin-right: 140px;
+} 
+
+.article-box {
+    display: flex;
+    width: calc(100% - 40px);
+    height: 525px;
+    padding-bottom: 16px;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 8px;
+    margin-left: 12px;
+    background: #FFF;
+    box-shadow: 0px 18px 24px 0px rgba(118, 118, 178, 0.28);
+}
+
+.article-img {
+    height: 220px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.w-48 {
+    width: 48px;
+    height: 48px;
+}
+
+.navbar-backdrop {
+    background-color: #7676B2;
+    backdrop-filter: blur(10px);
+}
+
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+}
+
+a.article-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.article-image-post {
+    height: 500px;
+    overflow: hidden;
+}
+
+.post-body p {
+    color: rgba(37, 49, 60, 0.90);
+    font-family: Lexend Deca;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; 
+}
+
+.text-soft-violet {
+    color: #C897E4;
+    font-size: 16px;
+}
+
+.w-64 {
+    width: 64px;
+    height: 64px;
+}
+
+.author-bio {
+    color: rgba(35, 35, 64, 0.60);
+    font-family: Lexend Deca;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.14px;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.article-box:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 575.98px) {
+    .mx-140 {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    main header p {
+        font-size: 14px;
+    }
+
+    .article-box {
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+    }
+
+    .article-box-body {
+        font-size: 12px;
+    }
+
+    .article-image-post {
+        height: 200px;
+        overflow-y: hidden;
+        position: relative;
+        padding: 0;
+        margin: 0;
+    }
+
+    main .row {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .mx-140 {
+        margin-left: 40px;
+        margin-right: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    main h1 {
+        font-size: 50px;
+    }
+
+    main header p {
+        font-size: 14px;
+    }
+
+    .article-box {
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+    }
+
+    .article-box-body {
+        font-weight: lighter;
+        font-weight: 100;
+        font-size: 12px;
+    }
+
+    main .row {
+        padding: 0;
+        margin: 0;
+    }
+
+    .article-image-post {
+        height: 300px;
+        overflow-y: hidden;
+        position: relative;
+        padding: 0;
+        margin: 0;
+    }
+}
