@@ -1,4 +1,4 @@
-# Asssignment Digital Media Internship Front Frontend Developer of CTARSA Foundation
+# team. page
 
 Tools : HTML, CSS Native, CSS Framework (Bootstrap 5), Slicing Mockup/Template, Javascript, dan jQuery.
 
